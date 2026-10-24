@@ -1,0 +1,188 @@
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(210, 28%, 93%);
+    color: hsl(200, 19%, 18%);
+    line-height: 1.6;
+}
+
+
+.portfolio {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: hwb(0 100% 0%);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    min-height: 260px;
+    background-color: #17324d;
+    color: hsl(0, 0%, 100%);
+}
+
+.header-left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-left img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.badge {
+    margin-top: 15px;
+    padding: 8px 18px;
+    border: 1px solid #d7e5f2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.badge-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.badge-content span:last-child {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-right {
+    width: 65%;
+    padding: 30px;
+}
+
+.name-container h1 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    display: block;
+    color: #c8d9e8;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.name-divider {
+    width: 90px;
+    height: 4px;
+    background-color: #f0b45b;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding: 35px;
+}
+
+.left,
+.right {
+    min-width: 0;
+}
+
+
+.main-content section {
+    margin-bottom: 30px;
+}
+
+.main-content h2 {
+    color: hsl(210, 54%, 20%);
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid hsl(36, 73%, 60%);
+}
+
+.main-content p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.abt-me {
+    text-align: justify;
+}
+
+
+.exprcs {
+    padding-left: 20px;
+    margin-top: 12px;
+}
+
+.exprcs li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+.Edctn p:first-of-type {
+    font-weight: bold;
+    color: hsl(210, 54%, 20%);
+    font-size: 17px;
+}
+
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.language h2 {
+    width: 100%;
+}
+
+.language span {
+    background-color: hsl(207, 44%, 95%);
+    color: hsl(210, 54%, 20%);
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.address {
+    grid-column: 1 / -1;
+    background-color: hsl(210, 37%, 97%);
+    padding: 25px;
+    border-left: 4px solid hsl(210, 54%, 20%);
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+}
+
+.address h2 {
+    margin-bottom: 15px;
+}
+
+.cntct p {
+    margin-bottom: 10px;
+}
